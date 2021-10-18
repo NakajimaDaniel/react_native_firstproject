@@ -4,7 +4,7 @@
 
  export function SkillCard({ skillName }) {
    return (
-    <TouchableOpacity  key={skillName} style={styles.buttonSkill} >
+    <TouchableOpacity style={styles.buttonSkill} >
       <Text style={styles.textSkill}>
        {skillName}
       </Text>
